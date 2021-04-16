@@ -1,0 +1,1012 @@
+/*Pagina 1*/
+.primerbarra{
+  align-items: center;
+  display: flex;
+  background-color: rgb(89,89,91);
+  position: relative;
+  width: 101%;
+  height: 100px;
+}
+.primercosa{
+  background-color: #f56425;
+  position: relative;
+  width: 60%;
+  height: 60px;
+  margin: 20px;
+  display: flex;
+  margin: 0 0.8rem;
+  margin-top: 00.8rem;
+
+}
+.segundacosa{
+  background-color: white;
+  position: relative;
+  width: 90%;
+  height: 40px;
+  margin: 20px;
+}
+.tercercosa{
+  background-color: white;
+  position: relative;
+  width: 90%;
+  height: 40px;
+  margin: 20px;
+}
+.cuartacosa{
+  background-color: #e5a42e;
+  position: relative;
+  width: 90%;
+  height: 40px;
+  margin: 20px;
+}
+.grayfondo{
+  background-color: #414143;
+  height: 100vh;
+  width: 100%;
+}
+.cuadradoone{
+  margin: 30px;
+  background-color: #f46523;
+  width:35%;
+  height:200px;
+  display: flex;
+  margin: 0 0.8rem;
+  margin-top: 0.8rem;
+}
+.pol{
+  margin-left: 30px;
+  color: white;
+}
+.cuadradotwo{
+  margin: 30px;
+  background-color: #e6a233;
+  width:25%;
+  height:200px;
+}
+.fondogray{
+  background-color: #6d6e72;
+  width: 95%;
+  height: 100vh;
+}
+.pol1{
+  color: white;
+}
+
+/* Aca cominezan las animaciones */
+.animate{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.animate1{
+  animation: rotateInDownLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 2s;
+}
+.animate2{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: jackInTheBox; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 4s;  
+}
+.animate3{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: rotateInUpLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 4s;    
+}
+.animate4{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: zoomInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 6s; 
+}
+.animate5{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: zoomInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 10s;
+}
+.animate6{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: zoomInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 12s; 
+}
+.animate7{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 15s;  
+}
+.animate8{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: fadeInUpBig; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 18s;  
+}
+.animate9{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: flipInX; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 20s;  
+}
+/*pagina 2*/
+{
+  box-sizing: border-box;
+}
+body{
+  margin: auto;
+  background-color: rgb(40,37,37);
+}
+.padre2{
+  background-color: rgb(89,89,91);
+  position: relative;
+  width: 101.5%;
+  height: 300px;
+}
+.cuadroamarillo{
+  background-color: rgb(230,163,50);
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+.parrafo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+ }
+ .cajagris{
+  background-color: rgb(65,64,69);
+  position: relative;
+  width: 100vh;
+  height: 400px;
+  margin-top: 50px;
+}
+.cajagris2{
+  background-color: rgb(65,65,67);
+  right: 5vh;
+  width: 30%;
+  height: 1000px;
+  position: absolute;
+}
+.cuadrorojo1{
+  background-color: rgb(196,31,62);
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin: 50px;
+} 
+.cuadrorojo2{
+  background-color: rgb(236,28,35);
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin: 50px;
+}
+.cuadrorojo3{
+  background-color: rgb(204,31,40);
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin: 50px;
+}  
+.subti1{
+  left: 150px;
+  position: absolute;
+}
+.text1{
+  top: 40px;
+  left: 150px;
+  position: absolute;
+}
+.cuadrorojo4{
+  background-color: rgb(241,90,80);
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin: 50px;
+} 
+.textone{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+
+}
+.textosub{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.rectangorangi{
+  background-color: rgb(89,89,81);
+  display: flex;
+  width: 100%;
+  height: 10em;
+}
+
+/* Aca cominezan las animaciones */
+.animate{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.animate1{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: wobble; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 2s;
+}
+.animate2{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 4s;
+}
+.animate3{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 8s;
+}
+.animate4{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 10s; 
+}
+.animate5{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: fadeOutDownBig; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 12s; 
+}
+.animate6{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: fadeOutUpBig; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 15s; 
+}
+.animate7{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: flipInY; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 18s;  
+}
+/*Pagina 3*/
+{
+  box-sizing: border-box;
+}
+body{
+  margin: auto;
+  background-color: rgb(40,37,37);
+}
+.padre3{
+  background-color: rgb(89,89,91);
+  position: relative;
+  width: 101.7%;
+  height: 100px;
+}
+.barra4{
+  background-color: white;
+  position: absolute;
+  width: 15vh;
+  height: 40px;
+  margin: 30px;
+  border: 10px;
+}
+.barra5{
+  background-color: gray;
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  margin: 30px;
+  left: 1030px;
+}
+.barra6{
+  background-color: gray;
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  margin: 30px;
+  left: 1110px;
+}
+.barra7{
+  background-color: white;
+  position: absolute;
+  width: 280px;
+  height: 40px;
+  margin: 30px;
+  left: 1190px;
+}
+.barra8{
+  background-color: orange;
+  position: absolute;
+  width: 50px;
+  height: 40px;
+  margin: 30px;
+  left: 1450px;
+}
+.cuadroytexto{
+  background-color: rgb(194,32,64);
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+}
+.parrafo3{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+} 
+.titu32{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+} 
+.cuadrogris1{
+  background-color: rgb(65,65,67);
+  position: relative;
+  width: 75em;
+  height: 50vh;
+  margin: 50px;
+}
+ .parrafocaja{
+  display: flex;
+  justify-content: center;
+ }
+ .rectangorangn{
+  position: relative;
+  right: 60px;
+  background-color: rgb(65,65,67);
+  display: flex;
+  width: 100%;
+  height: 5em;
+}
+ .rectangorangm{
+  position: relative;
+  right: 60px;
+  background-color: rgb(87,89,91);
+  display: flex;
+  width: 100%;
+  height: 5em;
+}
+ .rectangorangb{
+  position: relative;
+  right: 60px;
+  background-color: rgb(112,111,116);
+  display: flex;
+  width: 100%;
+  height: 5em;
+}
+/* Aca cominezan las animaciones */
+.animate{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  }
+  .animate1{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: flip; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */ 
+  }
+  .animate2{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: rotateInDownLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */ 
+    animation-delay: 4s;
+  }
+  .animate3{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: rotateInUpLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */ 
+    animation-delay: 8s; 
+  }
+  .animate4{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: rotateOut; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */ 
+    animation-delay: 10s; 
+  }
+  .animate5{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: jackInTheBox; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */ 
+    animation-delay: 12s; 
+  }
+  .animate6{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: zoomOutUp; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */ 
+    animation-delay: 14s;
+  }
+/*Pagina 4*/
+{
+  box-sizing: border-box;
+}
+body{
+  margin: auto;
+  background-color: rgb(40,37,37);
+}
+.texto{
+  font-size: 14px;
+}
+.tituloo{
+  font-size: 20px;
+}
+.cuadrogranderojo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(196,31,62);
+  width: 100%;
+  height: 65vh;
+  margin: 15px;
+  padding: 10px;
+}
+.triangle1{
+  width: 0; 
+  height: 0; 
+  border-left: 88px solid white;
+  border-top: 65px solid transparent;
+  border-bottom: 65px solid transparent;
+}
+/* Aca cominezan las animaciones */
+.animate{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.animate1{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */ 
+  animation-delay: 2s;
+}
+.animate2{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: slideInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */ 
+  animation-delay: 8s; 
+}
+.animate3{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: rotateInDownLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */ 
+  animation-delay: 10s;  
+}
+.animate4{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: hinge; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */ 
+  animation-delay: 10s;  
+}
+/*pagina 5*/
+{
+  box-sizing: border-box;
+}
+body{
+  margin: auto;
+  background-color: rgb(40,37,37);
+}
+header{
+    background-color: #404042;
+    width: 100%;
+    / define altura de pantalla*/
+    height: 50vh;
+}
+.distribucion{
+    display: flex;
+}
+.cajaroja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c21d3d;
+    width: 100%;
+    height: 45vh;
+    margin: 15px;
+    padding: 10px;
+}
+.triangle{
+     width: 0; 
+     height: 0; 
+     border-left: 78px solid white;
+     border-top: 45px solid transparent;
+     border-bottom: 45px solid transparent;
+ }
+ h1{
+     color: white;
+     text-align: center;
+
+ }
+ p{
+     color: white;
+ }
+ .cajaparrafo{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     padding: 30px;
+ }
+ .rectangorange{
+     background-color: orange;
+     display: flex;
+     width: 100%;
+     height: 10em;
+ }
+ .cajader{
+     background-color: #404042;
+ }
+ h2{
+     color: white;
+ }
+ /* Aca cominezan las animaciones */
+.animate{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  }
+.animate2{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: lightSpeedInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 2s;
+  }
+.animate3{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: lightSpeedInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 4s;
+  }
+.animate4{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: zoomInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 8s;
+}
+.animate5{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: slideInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 10s;
+}
+.animate6{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: rotateOut; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 12s;
+} 
+}
+ /*pagina 6*/
+{
+  box-sizing: border-box;
+}
+body{
+  margin: auto;
+  background-color: rgb(40,37,37);
+}
+.distribucion6{
+  background-color:rgb(89,89,91);
+  display:flex;
+  align-items: center;
+  height: 5em;
+}
+.cuadrogrisone{
+  background-color:gray;
+  width:100%;
+  height:60%;
+  padding: 10px;
+}
+.cuadroblancoone{
+  background-color:white;
+  width: 100%;
+  height: 60%;
+  padding: 10px;
+}
+.cuadrorangeone{
+  background-color: orange;
+  width:100%;
+  height:60%;
+  padding: 10px;
+}
+.cajagris66{
+  background-color: #2b2b2d;
+  display: flex;
+  height: 70vh;
+}
+.cajagris6{
+  background-color: #2b2b2d;
+  display: flex;
+  height: 90vh;
+}
+.colorpone{
+  color: white;
+}
+.orangeone{
+  background-color: orange;
+  color:white;
+}
+.k{
+  position: relative;
+  right: 60px;
+  background-color: orange;
+  display: flex;
+  width: 100%;
+  height: 10em;
+}
+.l{
+  position: relative;
+  right: 60px;
+}
+.p{
+  background-color: rgb(44,44,46);
+}
+.colorwhite{
+  color: white;
+}
+/* Aca cominezan las animaciones */
+.animate{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.animate1{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: swing; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */ 
+  animation-delay: 2s;
+}
+.animate2{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */ 
+  animation-delay: 6s; 
+}
+.animate3{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: flip; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */ 
+  animation-delay: 8s; 
+}
+.animate4{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: flipOutX; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */ 
+  animation-delay: 10s; 
+} 
+.animate5{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: zoomOutUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */ 
+  animation-delay: 12s;  
+}
+/*Pagina 7*/
+ {
+  box-sizing: border-box;
+}
+body{
+  margin: auto;
+  background-color: rgb(40,37,37);
+}
+.cuadrograngriss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  width: 100%;
+  height: 65vh;
+  margin: 15px;
+  padding: 10px;
+}
+.cuadroblancoo{
+  background-color:white;
+  width: 50vh;
+  height: 8%;
+}
+.cuadroamarilloo{
+  background-color: rgb(230,163,50);
+  position: relative;
+  display: flex;
+  width: 250px;
+  height: 250px;
+  margin-top: 25px;
+}
+.parrafo8{
+ display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+}
+.cuadrogrisop{
+  margin: 25px;
+  margin-left: 100px;
+  background-color: gray;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.po{
+  margin-top: 15px;
+  font-size: 80%;
+}
+.qaz2{
+  margin-left: 30px;
+}
+/* Aca cominezan las animaciones */
+.animate{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.animate1{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: fadeInTopLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 2s;
+} 
+.animate2{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: flipInY; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 6s;
+}
+.animate3{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: rotateIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 8s; 
+}
+.animate4{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: rotateOutDownLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 10s; 
+}
+.animate5{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: hinge; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 12s; 
+}  
+}
+/*Pagina 8*/
+{
+  box-sizing: border-box;
+}
+body{
+  margin: auto;
+  background-color: rgb(40,37,37);
+}
+.cuadrograngrisss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgray;
+  width: 100%;
+  height: 65vh;
+  margin: 15px;
+  padding: 10px;
+}
+.pequegris{
+  margin-top: 400px;
+  margin-left: 30px;
+  background-color: gray;
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+.naranjaa{
+  color: orange;
+}
+.cuadrogrisopp{
+  margin: 20px;
+  background-color: rgb(65,70,67);
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.cuadrogrisopp1{ 
+  margin: 20px;
+  background-color: rgb(87,89,91);
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.cuadrogrisopp2{
+  margin: 20px;
+  background-color: rgb(108,110,114);
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.cuadrogrisopp3{
+  margin: 20px;
+  background-color: gray;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.cuadrogrisopp4{ 
+  margin: 20px;
+  background-color: gray;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.cuadrogrisopp5{
+  margin: 20px;
+  background-color: gray;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.parrafoo{
+  margin-top: 200px;
+}
+.alinear{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alinear2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Aca cominezan las animaciones */
+.animate{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  }
+.animate1{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: jackInTheBox; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 2s;
+}  
+.animate2{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: zoomInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 6s; 
+}
+.animate3{
+  display: flex;
+  margin: 0 0.5rem;
+  animation: slideInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 8s; 
+}
+.animate4{
+  display: flex;
+  margin: 0 0.5rem;
+  animation: zoomOutDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 10s;
+}
+.animate5{
+  display: flex;
+  margin: 0 0.5rem;
+  animation: jackInTheBox; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 12s;
+}
+.animate6{
+  display: flex;
+  margin: 0 0.5rem;
+  animation: rollOut; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 14s;
+}
+/*Pagina 9*/
+{
+  box-sizing: border-box;
+}
+body{
+  margin: auto;
+  background-color: rgb(29, 27, 27);
+}
+.naranjaa1{
+  color: orange;
+  text-align: left;
+}
+.pñgris{
+  margin: 20px;
+  background-color: rgb(82, 82, 85);
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+.grislargo{
+  margin: 20px;
+  background-color: rgb(44,44,46);
+  position: relative;
+  width: 80%;
+  height: 150px;
+}
+.tituliyos{
+  color: orange;
+}
+/* Aca cominezan las animaciones */
+.animate{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+.animate1{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: bounceInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 2s;
+}
+.animate2{
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: fadeInDownBig; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 6s;
+} 
